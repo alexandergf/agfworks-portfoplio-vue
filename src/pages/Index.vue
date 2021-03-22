@@ -12,7 +12,7 @@ import About from '@/components/About.vue'
 import Projects from '@/components/Projects.vue'
 import Contact from '@/components/Contact.vue'
 import Education from '@/components/Education.vue'
-
+window.history.scrollRestoration = 'auto' 
 export default {
   metaInfo: {
     title: 'Hello, world!'

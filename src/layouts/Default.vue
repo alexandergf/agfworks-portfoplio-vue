@@ -67,14 +67,11 @@ query {
 </static-query>
 
 <style>
-html{
-  scroll-behavior: smooth;
-}
 .v-application--wrap{
   flex-direction: row;
 }
 .v-main{
   flex: 1 0;
-  margin-left: 268px;
+  margin-left: 246px;
 }
 </style>
