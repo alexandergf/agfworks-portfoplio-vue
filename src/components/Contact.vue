@@ -18,7 +18,7 @@
 </template>
 
 <style scoped>
-.contact-section{
+.contact-section{ 
     background-color: #FFD563;
 }
 </style>
