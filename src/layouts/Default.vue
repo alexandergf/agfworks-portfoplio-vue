@@ -37,9 +37,7 @@
           </v-list>
         </v-navigation-drawer>
     <v-main>
-      <v-container>
-        <slot/>
-      </v-container>
+      <slot/>
     </v-main>
   </v-app>
 </template>
