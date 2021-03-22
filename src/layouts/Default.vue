@@ -25,6 +25,7 @@
               v-for="item in items"
               :key="item.title"
               link
+              :to="`#${item.title.toLowerCase().replace(' & ','-')}`"
             >
               <v-list-item-icon>
                 <v-icon>{{ item.icon }}</v-icon>
@@ -66,11 +67,14 @@ query {
 </static-query>
 
 <style>
+html{
+  scroll-behavior: smooth;
+}
 .v-application--wrap{
   flex-direction: row;
 }
 .v-main{
   flex: 1 0;
-  margin-left: 256px;
+  margin-left: 268px;
 }
 </style>
